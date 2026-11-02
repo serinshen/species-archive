@@ -459,23 +459,8 @@ a:hover {
   justify-content: space-between;
 }
 
-.howto {
-  margin-top: 2rem;
-  padding: 1rem 1.1rem;
-  border-radius: var(--radius-sm);
-  background: rgba(255, 252, 245, 0.55);
-  border: 1px dashed var(--line);
-  font-size: 0.88rem;
-  color: var(--ink-soft);
-}
 
-.howto code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.84em;
-  background: var(--cream-deep);
-  padding: 0.1em 0.35em;
-  border-radius: 4px;
-}
+
 
 .sr-only {
   position: absolute;
@@ -496,3 +481,5 @@ a:hover {
     transition: none;
   }
 }
+
+.empty-msg{color:var(--muted,#666);padding:1rem 0;}

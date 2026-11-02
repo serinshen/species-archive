@@ -112,7 +112,7 @@
   }
 
   if (!cards.length) {
-    $("#featured").innerHTML = `<p class="howto">未找到物种数据。</p>`;
+    $("#featured").innerHTML = `<p class="empty-msg">未找到物种数据。</p>`;
     return;
   }
 
