@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="晨间物种卡归档：中国野生种双语小卡，含照片与小知识。" />
+  <title>晨间物种卡 · Morning species cards</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%236b8f71'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='32'%3E🌿%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">🌿</div>
+        <div>
+          <h1>晨间物种卡</h1>
+          <p class="sub">Morning species cards · China wildlife archive</p>
+        </div>
+      </div>
+      <p class="tagline">每天一张中国野生种小卡：中文名、英文名、拉丁名、大类，以及六节小知识（栖息地区、生境、外形、食物、育幼、习性），照片可直接嵌入浏览。</p>
+      <nav class="chips" id="chips" aria-label="按日期切换"></nav>
+    </header>
+
+    <section aria-label="全部卡片">
+      <h2 class="sr-only">图库</h2>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <main class="featured" id="featured" aria-live="polite">
+      <!-- filled by js/app.js; noscript fallback below -->
+    </main>
+
+    <noscript>
+      <section class="featured">
+        <article class="card">
+          <div class="hero">
+            <img src="images/crested-ibis.jpg" alt="朱鹮 — Crested ibis (Nipponia nippon)" width="1200" />
+            <div class="hero-badge">卡片日期 · 2026年11月1日</div>
+          </div>
+          <div class="card-body">
+            <div class="card-kicker">
+              <span class="pill">鸟类</span>
+              <span class="pill soft">鹈形目</span>
+              <span class="pill soft">䴉科</span>
+            </div>
+            <div class="names">
+              <h2>朱鹮</h2>
+              <p class="en">Crested ibis · Asian crested ibis</p>
+              <p class="latin">Nipponia nippon</p>
+            </div>
+            <h3 class="facts-heading">小知识</h3>
+            <ul class="facts" aria-label="小知识六节">
+              <li data-n="1">
+                <div class="fact-label">栖息地区</div>
+                <div class="fact-text">野外核心种群在陕西南部汉中（尤以洋县一带）及安康等地，近年扩散至甘肃天水、四川广元等；历史上曾广布东亚。</div>
+              </li>
+              <li data-n="2">
+                <div class="fact-label">生境描述</div>
+                <div class="fact-text">喜山地森林、丘陵与邻近水田、河滩、溪流、沼泽等湿地；夜栖高大乔木，白天到浅水与泥地觅食。</div>
+              </li>
+              <li data-n="3">
+                <div class="fact-label">外形特征</div>
+                <div class="fact-text">中型涉禽，雌雄羽色相近。脸部朱红裸皮，长而下弯的黑喙端红，后枕有柳叶状冠羽；体羽白而羽干微染粉红，飞行时翼下常泛朱粉。繁殖期会把头颈背上体涂染成灰黑色。</div>
+              </li>
+              <li data-n="4">
+                <div class="fact-label">食物喜好</div>
+                <div class="fact-text">主要以泥鳅、黄鳝、鲫鱼等鱼类及蛙、螺、蟹、虾、蚯蚓、水生昆虫为食，偶食少量植物。</div>
+              </li>
+              <li data-n="5">
+                <div class="fact-label">育幼特点</div>
+                <div class="fact-text">约 2–6 月繁殖，在高大乔木上筑巢；窝卵约 1–4 枚，雌雄轮流孵化约 28–30 天，育雏约 45–50 天后离巢。</div>
+              </li>
+              <li data-n="6">
+                <div class="fact-label">特殊习性</div>
+                <div class="fact-text">性情沉静胆怯，常成对或小群；弯喙探入泥水做触觉觅食。汉中盆地为留鸟，有季节性垂直迁移。1981 年仅余 7 只野生个体，经保护种群回升，仍属濒危。</div>
+              </li>
+            </ul>
+            <p class="credit"><strong>照片出处</strong> · Wikimedia Commons — Nipponia nippon 284490992.jpg by wang cai (iNaturalist), CC BY 4.0</p>
+          </div>
+        </article>
+
+        <article class="card" style="margin-top:1.5rem">
+          <div class="hero">
+            <img src="images/pallas-squirrel.jpg" alt="赤腹松鼠 — Pallas's squirrel (Callosciurus erythraeus)" width="1200" />
+            <div class="hero-badge">卡片日期 · 2026年10月31日</div>
+          </div>
+          <div class="card-body">
+            <div class="card-kicker">
+              <span class="pill">哺乳类</span>
+              <span class="pill soft">啮齿目</span>
+              <span class="pill soft">松鼠科</span>
+            </div>
+            <div class="names">
+              <h2>赤腹松鼠</h2>
+              <p class="en">Pallas's squirrel</p>
+              <p class="latin">Callosciurus erythraeus</p>
+            </div>
+            <h3 class="facts-heading">小知识</h3>
+            <ul class="facts" aria-label="小知识六节">
+              <li data-n="1">
+                <div class="fact-label">栖息地区</div>
+                <div class="fact-text">中国华南至华中、华东广泛分布，包括云南、贵州、两广、海南、福建、台湾、浙江、江苏、安徽、江西、湖北、湖南、四川、重庆等地；国外见于东南亚。</div>
+              </li>
+              <li data-n="2">
+                <div class="fact-label">生境描述</div>
+                <div class="fact-text">栖于热带亚热带雨林、常绿阔叶林、次生林、灌丛、竹林及果园；亦常见于城市公园、校园与村居树木。</div>
+              </li>
+              <li data-n="3">
+                <div class="fact-label">外形特征</div>
+                <div class="fact-text">中型树栖松鼠，背毛橄榄褐杂黑，腹面锈红至橙黄，故名「赤腹」；尾蓬松，近体长。雌雄外形相近，无明显性二型。</div>
+              </li>
+              <li data-n="4">
+                <div class="fact-label">食物喜好</div>
+                <div class="fact-text">以果实、种子、嫩芽、花为主，兼食昆虫等；有时会剥树皮取食。</div>
+              </li>
+              <li data-n="5">
+                <div class="fact-label">育幼特点</div>
+                <div class="fact-text">繁殖期较长，约 4–9 月可见怀孕个体；每胎常 2–4 仔（以 2 仔居多），在树洞或树杈球巢中育幼。</div>
+              </li>
+              <li data-n="6">
+                <div class="fact-label">特殊习性</div>
+                <div class="fact-text">日行性，晨昏最活跃；善攀爬跳跃，常沿树干螺旋上下。除交配哺乳期外多单独活动，对城市园林生境适应性强。</div>
+              </li>
+            </ul>
+            <p class="credit"><strong>照片出处</strong> · Wikimedia Commons — Callosciurus erythraeus (Hangzhou, China)2.jpg by J. Patrick Fischer, CC BY-SA 3.0</p>
+          </div>
+        </article>
+
+        <article class="card" style="margin-top:1.5rem">
+          <div class="hero">
+            <img src="images/chinese-water-deer.jpg" alt="獐（牙獐） — Chinese water deer (Hydropotes inermis)" width="1200" />
+            <div class="hero-badge">卡片日期 · 2026年10月30日</div>
+          </div>
+          <div class="card-body">
+            <div class="card-kicker">
+              <span class="pill">哺乳类</span>
+              <span class="pill soft">偶蹄目</span>
+              <span class="pill soft">鹿科</span>
+            </div>
+            <div class="names">
+              <h2>獐（牙獐）</h2>
+              <p class="en">Chinese water deer</p>
+              <p class="latin">Hydropotes inermis</p>
+            </div>
+            <h3 class="facts-heading">小知识</h3>
+            <ul class="facts" aria-label="小知识六节">
+              <li data-n="1">
+                <div class="fact-label">栖息地区</div>
+                <div class="fact-text">中国现存主要在长江中下游与东部沿海，如江苏、上海、浙江（含舟山）、安徽、江西及辽宁、吉林等，呈隔离分布；朝鲜半岛亦有，曾引入欧洲。</div>
+              </li>
+              <li data-n="2">
+                <div class="fact-label">生境描述</div>
+                <div class="fact-text">偏好河岸、湖滩、海滩芦苇或茅草丛，以及低丘、海岛林缘草灌丛；回避茂密森林。</div>
+              </li>
+              <li data-n="3">
+                <div class="fact-label">外形特征</div>
+                <div class="fact-text">小型鹿类，体长约 91–103 cm，体重约 14–17 kg，毛棕黄；雌雄均无角。雄性上犬齿发达外露成獠牙（故称「牙獐」），雌性犬齿小得多；幼兽背部有纵行浅色斑点。</div>
+              </li>
+              <li data-n="4">
+                <div class="fact-label">食物喜好</div>
+                <div class="fact-text">选择性取食嫩草、芦苇、灌木嫩叶芽及杂草，也常至农田采食蔬菜、豆类等纤维较低的植物。</div>
+              </li>
+              <li data-n="5">
+                <div class="fact-label">育幼特点</div>
+                <div class="fact-text">11 月至翌年 1 月交配（高峰约 12 月），妊娠约 5–6 个月，5–7 月产仔；每胎常 1–3 仔（偶更多），幼兽初期隐蔽于密草，母兽前来哺乳。</div>
+              </li>
+              <li data-n="6">
+                <div class="fact-label">特殊习性</div>
+                <div class="fact-text">多单独或成对活动，晨昏活跃；善游泳，可在岛屿与岸滩间迁移。受惊时短跑窜入芦苇或灌丛隐藏。英文名 water deer 点出其对近水生境的偏好。</div>
+              </li>
+            </ul>
+            <p class="credit"><strong>照片出处</strong> · Wikimedia Commons — Chinese Water Deer1.jpg</p>
+          </div>
+        </article>
+      </section>
+    </noscript>
+
+    <div class="howto">
+      <strong>如何追加新的一天：</strong>
+      把照片放进 <code>images/</code>，再在 <code>js/cards-data.js</code> 与 <code>data/cards.json</code> 顶部追加一条（最新在前）；小知识用六节 <code>{ label, text }</code>（见 <code>FORMAT-6-SECTIONS.md</code>）。刷新即可。也可托管到 GitHub Pages / Netlify。
+    </div>
+
+    <footer class="site-footer">
+      <div class="bar">
+        <span>示例站点 · 仅收录中国野生种 · photos Wikimedia CC</span>
+        <span>晨间物种卡 archive sample</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/cards-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
