@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-11-03-white-necklaced-partridge",
+    "date": "2026-11-03",
+    "zh": "白眉山鹧鸪",
+    "en": "White-necklaced Partridge",
+    "enAlt": "Collared Partridge / Rickett's Hill-partridge",
+    "latin": "Arborophila gingica",
+    "group": "鸟类",
+    "order": "鸡形目",
+    "family": "雉科",
+    "image": "images/white-necklaced-partridge.jpg",
+    "thumb": "images/white-necklaced-partridge-thumb.jpg",
+    "conservationGlobal": "近危 NT（IUCN）",
+    "conservationChina": "国家二级重点保护野生动物；中国生物多样性红色名录：易危 VU",
+    "facts": [
+      {
+        "label": "栖息地区",
+        "text": "中国东南部特有留鸟，分布于浙江、江西、福建、广东与广西等地；不迁徙，为东南山地丘陵的繁殖特有种。"
+      },
+      {
+        "label": "生境描述",
+        "text": "偏好常绿阔叶林、针阔混交林、竹林与灌丛，多在海拔约 500–1700 米（偶见 150–1900 米）；常活动于靠近溪谷、潮湿阴郁的密林林下。"
+      },
+      {
+        "label": "外形特征",
+        "text": "体长约 25–30 cm，重约 250 g。额白、眉纹长而淡，喉侧橙栗色；喉下有黑环、白带与栗色上胸带，腹转灰白；背红褐带黑斑，腿红。雌雄外形相近，雌鸟略小，尾下覆羽常呈栗白相间。"
+      },
+      {
+        "label": "食物喜好",
+        "text": "杂食，以种子、浆果、果实等植物性食物为主，也啄食昆虫、软体动物等小型无脊椎动物；春夏常上移觅果，秋冬多下到谷地拣食种子。"
+      },
+      {
+        "label": "育幼特点",
+        "text": "约 4–5 月繁殖；在地面凹陷或灌丛、树桩旁用草叶筑巢。每窝常产 5–7 卵，孵化约 23 天；季配，有时带雏的家庭群会短暂会合。"
+      },
+      {
+        "label": "特殊习性",
+        "text": "白天潜伏密林地面活动，夜里成群上树栖息。晨昏发出哀婉口哨样领域叫声（如 wooop、co-qwee），雨天也常鸣叫；性机警隐蔽。"
+      }
+    ],
+    "credit": "iNaturalist — observation 335930348 by lujiangli1997, CC0 (Guangzhou wild, 2026-01-24)"
+  },
+  {
     "id": "2026-11-02-fairy-pitta",
     "date": "2026-11-02",
     "zh": "仙八色鸫",
