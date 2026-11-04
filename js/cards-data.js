@@ -4,6 +4,48 @@
    conservationGlobal / conservationChina: required status rows near taxonomy. */
 window.SPECIES_CARDS = [
   {
+    "id": "2026-11-04-siberian-crane",
+    "date": "2026-11-04",
+    "zh": "白鹤",
+    "en": "Siberian Crane",
+    "enAlt": "Siberian White Crane / Snow Crane",
+    "latin": "Leucogeranus leucogeranus",
+    "group": "鸟类",
+    "order": "鹤形目",
+    "family": "鹤科",
+    "image": "images/siberian-crane.jpg",
+    "thumb": "images/siberian-crane-thumb.jpg",
+    "conservationGlobal": "极危 CR（IUCN）",
+    "conservationChina": "国家一级重点保护野生动物；中国生物多样性红色名录：极危 CR",
+    "facts": [
+      {
+        "label": "栖息地区",
+        "text": "东部种群繁殖于俄罗斯雅库特（萨哈）低地苔原沼泽，秋季经中国东北停歇后南迁，主要在江西鄱阳湖越冬（约占全球个体八成以上），少数至洞庭湖、黄河三角洲等地；中西部种群已近灭绝。"
+      },
+      {
+        "label": "生境描述",
+        "text": "繁殖期依赖北极圈附近开阔的浅水湖泊、泥炭沼泽与苔原水网；越冬期偏好鄱阳湖枯水期出露的浅水、泥滩、草洲，也利用藕塘与收割后稻田等人工湿地。"
+      },
+      {
+        "label": "外形特征",
+        "text": "大型涉禽，站立高约 1.3–1.4 m，翼展约 2.1–2.6 m，重约 4.9–8.6 kg。成鸟通体纯白，仅初级飞羽与小翼羽黑；额至眼周鲜红裸皮，喙粗直偏深褐/赭红，腿粉红，虹膜金黄。雌雄羽色相近，雄鸟体型略大；幼鸟头颈金褐、体羽褐白斑驳。"
+      },
+      {
+        "label": "食物喜好",
+        "text": "偏植食的杂食者：繁殖地取食水生植物根茎、种子，亦食小型啮齿类、蚯蚓与鱼类；鄱阳湖越冬传统以苦草冬芽为主，近年因沉水植被退化，莲藕、蓼子草与散落稻谷等成为重要食物。"
+      },
+      {
+        "label": "育幼特点",
+        "text": "约 5–6 月在湖沼浅滩筑浅盘状巢；通常产 2 卵，雌鸟主孵约 27–29 天，雄鸟警戒。雏鸟约 70–85 天具备飞翔能力；同窝雏常互啄，多仅一只能存活。"
+      },
+      {
+        "label": "特殊习性",
+        "text": "长距离候鸟，迁徙可达五千余公里；成对或家庭群活动，对鸣宣示领域。觅食时常将头颈没入浅水掘取块茎，并吞砾助消化；飞行时颈脚伸直，黑翅尖醒目。全球种群高度依赖鄱阳湖越冬地。"
+      }
+    ],
+    "credit": "Wikimedia Commons — Full-body Portrait of an Adult Siberian Crane at Poyang Lake.jpg by A Dim Light Chaser, CC BY 4.0 (Poyang Lake wild, 2023-12-31)"
+  },
+  {
     "id": "2026-11-03-white-necklaced-partridge",
     "date": "2026-11-03",
     "zh": "白眉山鹧鸪",
