@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-11-05-snowy-owl",
+    "date": "2026-11-05",
+    "zh": "雪鸮",
+    "en": "Snowy Owl",
+    "enAlt": "Polar Owl / Arctic Owl / White Owl",
+    "latin": "Bubo scandiacus",
+    "group": "鸟类",
+    "order": "鸮形目",
+    "family": "鸱鸮科",
+    "image": "images/snowy-owl.jpg",
+    "thumb": "images/snowy-owl-thumb.jpg",
+    "conservationGlobal": "易危 VU（IUCN）",
+    "conservationChina": "国家二级重点保护野生动物；中国生物多样性红色名录：近危 NT",
+    "facts": [
+      {
+        "label": "栖息地区",
+        "text": "环北极繁殖于斯堪的纳维亚、俄罗斯北部、阿拉斯加、加拿大北部与格陵兰等地的苔原；中国为罕见冬候鸟（非繁殖），主要见于黑龙江、吉林、内蒙古、河北、新疆等地开阔原野。"
+      },
+      {
+        "label": "生境描述",
+        "text": "繁殖期依赖树线以北开阔苔原，喜有小丘、岩块与稀疏矮灌的平缓地；越冬期亦利用雪原、草原、沼泽、海岸沙丘、农田与机场周边等开阔生境。"
+      },
+      {
+        "label": "外形特征",
+        "text": "大型鸮类，体长约 52–71 cm，翼展约 125–150 cm；虹膜金黄，喙黑，脚被厚羽。成鸟大体雪白；雌鸟体型较大、体羽暗色横斑更密，雄鸟随年龄增长更接近纯白，幼鸟斑纹最重——雌雄差异明显。"
+      },
+      {
+        "label": "食物喜好",
+        "text": "繁殖地常以旅鼠（Lemmus、Dicrostonyx）等小型啮齿类为主食，亦捕食田鼠、雪兔及雷鸟、鸭类等鸟类；食物匮乏时食谱更杂，甚至偶食鱼、蛙与甲虫。"
+      },
+      {
+        "label": "育幼特点",
+        "text": "约在苔原高处地面刮浅巢；窝卵数随旅鼠丰歉变化，常约 3–11 枚，雌鸟主孵约 31–33 天。雏鸟约 50 天前后离巢飞翔；旅鼠极少年份可完全不繁殖。"
+      },
+      {
+        "label": "特殊习性",
+        "text": "昼行性猎手，北极夏季可全日活动；多为迁徙或游荡，随猎物丰歉爆发式南迁（irruption）。通常一夫一妻且可长期成对；常在开阔地低矮栖息点守猎，飞行强健、翅尖略圆。"
+      }
+    ],
+    "credit": "Wikimedia Commons — Bubo scandiacus Cypress Creek NWR.jpg by John Schwegman / U.S. Fish and Wildlife Service, Public domain (wild male near Cypress Creek NWR, 2012-01-27)"
+  },
+  {
     "id": "2026-11-04-siberian-crane",
     "date": "2026-11-04",
     "zh": "白鹤",
