@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-11-06-baers-pochard",
+    "date": "2026-11-06",
+    "zh": "青头潜鸭",
+    "en": "Baer's Pochard",
+    "enAlt": "Eastern White-eye / Green-headed Pochard / Siberian White-eye",
+    "latin": "Aythya baeri",
+    "group": "鸟类",
+    "order": "雁形目",
+    "family": "鸭科",
+    "image": "images/baers-pochard.jpg",
+    "thumb": "images/baers-pochard-thumb.jpg",
+    "conservationGlobal": "极危 CR（IUCN）",
+    "conservationChina": "国家一级重点保护野生动物；中国生物多样性红色名录：极危 CR",
+    "facts": [
+      {
+        "label": "栖息地区",
+        "text": "东亚特有潜鸭。传统繁殖于俄罗斯远东南部阿穆尔—乌苏里流域及中国东北；近年华北、华中亦发现繁殖地。越冬主要在中国长江中下游及以南淡水湿地，境外已很少规律越冬。"
+      },
+      {
+        "label": "生境描述",
+        "text": "繁殖期偏好水生植物丰富的开阔湖泊、沼泽与池塘，巢多置于挺水植被、草丛或浅水小岛；越冬期亦利用大型淡水湖、水库等开阔水体，偶见于鱼塘等人工湿地。"
+      },
+      {
+        "label": "外形特征",
+        "text": "体长约 41–47 cm，翼展约 70–79 cm。繁殖雄鸟头颈墨黑带铜绿光泽，虹膜白或淡黄，胸栗褐，体侧白至淡栗，背黑褐；雌鸟头颈暗褐、虹膜褐，胸胁栗褐，嘴基前常有鲜明栗斑——雌雄差异明显。"
+      },
+      {
+        "label": "食物喜好",
+        "text": "杂食的潜鸭：以沉水植物（如睡莲科、眼子菜科等）及草籽为主，亦取食软体动物、虾类与水生昆虫；繁殖期对水生植被依赖尤强。"
+      },
+      {
+        "label": "育幼特点",
+        "text": "巢以莎草、芦苇等筑于挺水植被中，内衬羽绒；窝卵约 5–14 枚（平均约 9–10），雌鸟孵卵约 23–26 天，雄鸟在附近警戒。繁殖季多为单配制。"
+      },
+      {
+        "label": "特殊习性",
+        "text": "善潜水游泳，受惊可迅速起飞；迁徙时常结小群低空楔形飞行。冬季多昼伏，黄昏离塘觅食、黎明返回。华中部分种群近年可留居不迁；全球成熟个体可能不足千只。"
+      }
+    ],
+    "credit": "Wikimedia Commons — Aythya baeri male.jpg by Sun Jiao (Interaccoonale), CC BY 4.0 (wild breeding male, Wuhan, Hubei, China, 2022-05-02)"
+  },
+  {
     "id": "2026-11-05-snowy-owl",
     "date": "2026-11-05",
     "zh": "雪鸮",
