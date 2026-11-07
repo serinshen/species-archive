@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-11-07-oriental-stork",
+    "date": "2026-11-07",
+    "zh": "东方白鹳",
+    "en": "Oriental Stork",
+    "enAlt": "Oriental White Stork / Japanese White Stork / Boyce's Stork",
+    "latin": "Ciconia boyciana",
+    "group": "鸟类",
+    "order": "鹳形目",
+    "family": "鹳科",
+    "image": "images/oriental-stork.jpg",
+    "thumb": "images/oriental-stork-thumb.jpg",
+    "conservationGlobal": "濒危 EN（IUCN）",
+    "conservationChina": "国家一级重点保护野生动物；中国生物多样性红色名录：濒危 EN",
+    "facts": [
+      {
+        "label": "栖息地区",
+        "text": "东亚特有大型鹳类。主要繁殖于俄罗斯远东阿穆尔—乌苏里流域及中国东北湿地（如三江平原、扎龙等）；越冬集中于长江中下游及以南淡水湿地（鄱阳湖等为核心），少数至台湾、香港及朝鲜半岛、日本。"
+      },
+      {
+        "label": "生境描述",
+        "text": "繁殖期依赖有高大乔木（或人工巢杆、电塔）的森林湿地、河湖沼泽与苔草—芦苇生境；觅食于开阔浅水湖泊、沼泽、稻田等淡水湿地，偶至海岸潮间带。"
+      },
+      {
+        "label": "外形特征",
+        "text": "大型涉禽，体长约 100–115 cm，翼展约 195–220 cm，重约 4–5 kg。成鸟大体雪白，肩羽、飞羽与部分覆羽黑；粗长黑喙，眼周裸皮红粉，腿红。雌雄羽色相近，雄鸟体型略大——外形差异微弱，可靠鉴别常需量度或 DNA；幼鸟覆羽偏褐、腿色较淡。"
+      },
+      {
+        "label": "食物喜好",
+        "text": "肉食性涉禽：在浅水中取食鱼类（如鲫、泥鳅等）、蛙类、蛇与蜥蜴等爬行类，以及蝗虫等昆虫与小型啮齿类；也常在稻田与人工湿地觅食。"
+      },
+      {
+        "label": "育幼特点",
+        "text": "约 2–7 月繁殖；在高大乔木或人工巢台/电杆上以枯枝筑大型巢。窝卵常 2–5 枚（可达 6），双亲轮流孵卵约 30–35 天；育雏约两个月后离巢飞翔。"
+      },
+      {
+        "label": "特殊习性",
+        "text": "完全候鸟，秋冬南迁。喉部发声肌不发达，几乎不啼叫，而以上下喙快速敲击交流（咔嗒声）。飞行时颈脚伸直、黑白翅鲜明；黄河三角洲等地近年靠人工招引巢成功繁殖。"
+      }
+    ],
+    "credit": "Wikimedia Commons — Ciconia boyciana in Russia 679265169.jpg by Поляков Александр (Aleksandr Polyakov) / iNaturalist, CC BY 4.0 (wild, Mikhaylovsky District, Primorsky Krai, Russia, 2026-06-02)"
+  },
+  {
     "id": "2026-11-06-baers-pochard",
     "date": "2026-11-06",
     "zh": "青头潜鸭",
