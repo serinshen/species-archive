@@ -5,6 +5,48 @@
 window.SPECIES_CARDS = 
 [
   {
+    "id": "2026-11-09-blue-crowned-laughingthrush",
+    "date": "2026-11-09",
+    "zh": "靛冠噪鹛",
+    "en": "Blue-crowned Laughingthrush",
+    "enAlt": "Courtois's Laughingthrush / 蓝冠噪鹛",
+    "latin": "Pterorhinus courtoisi",
+    "group": "鸟类",
+    "order": "雀形目",
+    "family": "噪鹛科",
+    "image": "images/blue-crowned-laughingthrush.jpg",
+    "thumb": "images/blue-crowned-laughingthrush-thumb.jpg",
+    "conservationGlobal": "极危 CR（IUCN）",
+    "conservationChina": "国家一级重点保护野生动物；中国生物多样性红色名录：极危 CR",
+    "facts": [
+      {
+        "label": "栖息地区",
+        "text": "中国特有种。目前确认的野生繁殖群几乎全部集中在江西婺源一带多个彼此隔离的小殖民地；云南思茅一带曾有标本记录（历史上称思茅亚种），但自 1956 年后多次搜寻未再找到。越冬地仍不完全清楚，推测多在繁殖地附近。"
+      },
+      {
+        "label": "生境描述",
+        "text": "繁殖期常出现在紧挨村庄与河道的常绿／落叶混交「风水林」中，多在香樟、枫杨等大树上层营巢，也使用靠近人居的灌丛。觅食可在树冠与地面进行，对人改造过的村落林缘有一定适应，但也因此更容易受到道路、旅游开发和惊扰影响。"
+      },
+      {
+        "label": "外形特征",
+        "text": "小型噪鹛，体长约 23–25 cm。头顶蓝灰色，额、眼周至耳羽形成醒目的黑「眼罩」，喉鲜黄，上胸偏橘黄，腹黄而尾下覆羽偏白；上体偏褐，肩背常带橄榄色调，尾端黑并具白缘。虹膜红褐，嘴黑褐，脚灰。雌雄羽色几乎相同，外形上难以分辨性别（性单态）；权威公开描述未记载明显两性异形。"
+      },
+      {
+        "label": "食物喜好",
+        "text": "杂食：在树冠与地面成群觅食，取食昆虫（如蜻蜓）、蚯蚓等无脊椎动物，也吃枇杷等果实、野生草莓与树籽。常一边叫一边翻找落叶与枝叶。"
+      },
+      {
+        "label": "育幼特点",
+        "text": "群居并具合作繁殖：约 3 月下旬起返回繁殖地，多数雏鸟在 5 月孵出（少数可延至 6 月初）。巢多筑于高大树冠，离地常在 5 m 以上；双亲护巢，其他成鸟也会参与喂雏。窝卵数常见约 2–4 枚；孵化约十余天，约两周后幼鸟可逐渐自行觅食。"
+      },
+      {
+        "label": "特殊习性",
+        "text": "高度社群性，常成群活动，叫声多样，有时像人的笑声。喜欢到河边浅水戏水梳羽。1919 年婺源首获标本后长期神秘消失，2000 年才在婺源被重新发现；1980–90 年代鸟贸捕猎曾重创种群。如今野外仅数百只量级，集中在少数村落林，保护成效与开发压力并存。"
+      }
+    ],
+    "credit": "Wikimedia Commons — Blue-crowned Laughingthrush (Pterorhinus courtoisi), Wuyuan, Shangrao, Jiangxi, China 1.jpg by wangqg (from iNaturalist 286225857 / photo 514545077), CC BY 4.0 (wild, Hutian / 湖田, Wuyuan, Jiangxi, China, 2025-05-24)"
+  },
+  {
     "id": "2026-11-08-chinese-crested-tern",
     "date": "2026-11-08",
     "zh": "中华凤头燕鸥",
@@ -424,4 +466,4 @@ window.SPECIES_CARDS =
     ],
     "credit": "Wikimedia Commons — Chinese Water Deer1.jpg"
   }
-];
+]
