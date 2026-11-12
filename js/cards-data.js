@@ -5,6 +5,48 @@
 window.SPECIES_CARDS = 
 [
   {
+    "id": "2026-11-12-greater-yellownape",
+    "date": "2026-11-12",
+    "zh": "大黄冠啄木鸟",
+    "en": "Greater Yellownape",
+    "enAlt": "Greater Yellownape Woodpecker",
+    "latin": "Chrysophlegma flavinucha",
+    "group": "鸟类",
+    "order": "䴕形目",
+    "family": "啄木鸟科",
+    "image": "images/greater-yellownape.jpg",
+    "thumb": "images/greater-yellownape-thumb.jpg",
+    "conservationGlobal": "无危 LC（IUCN）",
+    "conservationChina": "国家二级重点保护野生动物；中国生物多样性红色名录：易危 VU",
+    "facts": [
+      {
+        "label": "栖息地区",
+        "text": "在中国为留鸟，主要见于西南至华南的山地森林，包括西藏东南部、云南、四川南部、广西、福建和海南，整体不常见。更广的分布从喜马拉雅山脉向东、向南，经缅甸、中南半岛到马来半岛山地和苏门答腊。现行 IOC 名录在中国大致对应三个亚种：指名亚种 flavinucha（西南，如云南、四川南部一带）、华南亚种 ricketti（向东到福建，并分布至越南北部）和海南亚种 styani（海南及邻近大陆；中国手册亦记广西南部）。旧版中国手册中的 lylei（西藏东南部、云南南部）在现行 IOC 名录中多已并入指名亚种。"
+      },
+      {
+        "label": "生境描述",
+        "text": "主要栖于潮湿的低地林和山地林，也利用林缘、次生林和已经明显退化的林地。全球海拔记录从近海平面到约 2,750 m；在中国，较早的野外手册多记为约 800–2,000 m 的亚热带混交林、松林及次生林。"
+      },
+      {
+        "label": "外形特征",
+        "text": "体长约 33–34 cm 的大型绿色啄木鸟。上体橄榄绿，下体偏灰，尾黑，飞羽栗褐并带黑横斑；后颈有一丛醒目的金黄色冠羽，嘴在野外常显得发白。雌雄都有黄冠，但喉部不同：雄鸟颏、喉鲜黄，下喉有黑白斑纹；雌鸟对应部位为棕褐或栗色。虹膜近红，脚绿灰。与黄冠啄木鸟相比，本种体型更大，头部没有红色。"
+      },
+      {
+        "label": "食物喜好",
+        "text": "主要以蚂蚁、白蚁和各种昆虫幼虫为食，在树干和树枝上觅食；也有吃浆果和种子的记录。"
+      },
+      {
+        "label": "育幼特点",
+        "text": "在树干上凿洞为巢，洞多由雌雄共同开凿，高度常见约 6 m。每窝通常 2–4 枚卵，双亲轮流孵卵并一起喂雏。孵化日数和离巢日数的详细公开记录仍较少，繁殖时间也随地区而异。"
+      },
+      {
+        "label": "特殊习性",
+        "text": "不长距离迁徙的留鸟。常单独、成对或一小家族活动，有时相当喧闹、显眼，会在树干上敲击，并发出短促的「chup」声或一串急促叫声。多在树冠层和中层的树干、树枝上觅食，很少下到地面。"
+      }
+    ],
+    "credit": "Wikimedia Commons — Chrysophlegma flavinucha 476489588.jpg by egorbirder (via iNaturalist), CC BY 4.0 (wild male, Nainital, Uttarakhand, India, 2025-03-14)"
+  },
+  {
     "id": "2026-11-11-blackthroat",
     "date": "2026-11-11",
     "zh": "黑喉歌鸲",
