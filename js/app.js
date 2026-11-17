@@ -25,24 +25,6 @@
     });
   }
 
-  function renderGallery(activeId) {
-    $("#gallery").innerHTML = cards
-      .map((c) => {
-        const active = c.id === activeId ? " is-active" : "";
-        const en = c.enAlt ? `${c.en} · ${c.enAlt}` : c.en;
-        return `
-<button type="button" class="gallery-card${active}" data-id="${escapeHtml(c.id)}" aria-pressed="${c.id === activeId}">
-  <img src="${escapeHtml(c.thumb)}" alt="${escapeHtml(c.zh)}（${escapeHtml(c.en)}）" width="640" height="480" loading="lazy" />
-  <div class="gallery-meta">
-    <div class="gallery-date">${escapeHtml(c.date)}</div>
-    <div class="gallery-name">${escapeHtml(c.zh)}</div>
-    <div class="gallery-en">${escapeHtml(en)}</div>
-  </div>
-</button>`;
-      })
-      .join("");
-  }
-
   function renderChips(activeId) {
     $("#chips").innerHTML = cards
       .map((c) => {
@@ -99,16 +81,12 @@
 </article>`;
   }
 
-  function selectCard(id, scroll) {
+  function selectCard(id) {
     const card = cards.find((c) => c.id === id) || cards[0];
     if (!card) return;
     renderChips(card.id);
-    renderGallery(card.id);
     renderCard(card);
     history.replaceState(null, "", `#${card.id}`);
-    if (scroll) {
-      $("#featured")?.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
   }
 
   if (!cards.length) {
@@ -119,13 +97,12 @@
   const onPick = (e) => {
     const btn = e.target.closest("[data-id]");
     if (!btn) return;
-    selectCard(btn.dataset.id, true);
+    selectCard(btn.dataset.id);
   };
 
   $("#chips").addEventListener("click", onPick);
-  $("#gallery").addEventListener("click", onPick);
 
   const hash = decodeURIComponent(location.hash.replace(/^#/, ""));
   const initial = cards.find((c) => c.id === hash)?.id || cards[0].id;
-  selectCard(initial, false);
+  selectCard(initial);
 })();
